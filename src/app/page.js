@@ -1,6 +1,6 @@
 
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin } from "react-icons/ai";
+import { IoLogoLinkedin } from "react-icons/io5";
 import { BsTwitterX } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 
@@ -31,16 +31,17 @@ export default function Home() {
           </nav>
 
             <div className="text-center p-10">
-              <h2>Chester Jazmin</h2>
-              <h3>Developer</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h2 className="text-5xl text-bold py-2 font-bold text-gray-700">Chester Jazmin</h2>
+              <h3 className="py-2 text-2xl font-semibold">Developer</h3>
+              <p className=" leading-10 px-10 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
 
 
-            <div>
-              <AiFillLinkedin/>
-              <BsTwitterX/>
-              <FaFacebook/>
+            <div className="text-5xl flex justify-center gap-10 text-gray-600">
+              <a href=""><IoLogoLinkedin/></a>
+              <a href=""><BsTwitterX/></a>
+              <a href=""><FaFacebook/></a>
+    
             </div>
 
 
