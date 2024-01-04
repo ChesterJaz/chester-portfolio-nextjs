@@ -1,6 +1,6 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { IoLogoLinkedin } from "react-icons/io5";
-import { BsTwitterX } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import Image from "next/image";
 import logoW from "../../public/logo1.png";
@@ -11,7 +11,12 @@ import cssLogo from "../../public/css.png";
 import reactLogo from "../../public/react.png";
 import pythonLogo from "../../public/python.png";
 
+
 export default function Home() {
+
+  // const [loading, setLoading] = useState(false) 
+  
+
   return (
     <div>
       <head>
@@ -92,7 +97,7 @@ export default function Home() {
               <IoLogoLinkedin />
             </a>
             <a href="">
-              <BsTwitterX />
+              <FaGithub />
             </a>
             <a href="">
               <FaFacebook />
