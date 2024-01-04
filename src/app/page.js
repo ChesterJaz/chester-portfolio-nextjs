@@ -20,7 +20,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </head>
 
-        <main className=" bg-white px-10 font-poppins">
+        <main className=" bg-white font-poppins">
           <section className="">
             <Navbar />
             <Hero/>
