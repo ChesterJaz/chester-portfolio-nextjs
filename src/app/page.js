@@ -21,7 +21,7 @@ export default function Home() {
         </head>
 
         <main className=" bg-white px-10 font-poppins">
-          <section className="min-h-screen">
+          <section className="">
             <Navbar />
             <Hero/>
             {/* <Mema />
