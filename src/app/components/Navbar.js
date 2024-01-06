@@ -17,13 +17,13 @@ function Navbar() {
   return (
     <div>
       <nav className="py-5 mb-12 flex justify-between h-24 w-[100%] border-b">
-        <div className="h-[200px] w-[200px] py-2  ml-16 hidden md:block">
+        <div className="h-[200px] w-[200px] py-2  ml-16">
           <a href="#">
             <Image src={logoW} />
           </a>
         </div>
 
-        <div className="text-xl my-auto mx-auto flex items-center justify-center md:justify-start">
+        <div className="text-xl my-auto mr-16 items-center hidden md:block">
           <ul className="flex gap-10">
             <li>
               <a href="">Home</a>

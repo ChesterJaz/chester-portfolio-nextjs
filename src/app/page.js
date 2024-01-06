@@ -24,8 +24,8 @@ export default function Home() {
           <section className="">
             <Navbar />
             <Hero/>
-            {/* <Mema />
-            <Socials/> */}
+            {/* <Mema /> */}
+            <Socials/> 
           </section>
         </main>
 

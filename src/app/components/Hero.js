@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
@@ -8,7 +11,22 @@ function Hero() {
           Chester Jazmin
         </h2>
         <div>
-          <h3 className="py-2 text-2xl font-poppins font-semibold">I am a</h3>
+          <TypeAnimation
+            sequence={[
+              // Same substring at the start will only be typed once, initially
+              "I am a Frontend Dev",
+              1000,
+              "I am a Backend Dev",
+              1000,
+              "I am a Fullstack Dev",
+              1000,
+              "I am handsome",
+              1000,
+            ]}
+            speed={50}
+            style={{ fontSize: "2em" }}
+            repeat={Infinity}
+          />
         </div>
         <p className="leading-10 px-10 text-gray-600">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
