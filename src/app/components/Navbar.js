@@ -15,7 +15,7 @@ function Navbar() {
   };
 
   return (
-    <div>
+    <div className="sticky top-0 z-50 bg-white w-full shadow-sm">
       <nav className="py-5 mb-12 flex justify-between h-24 w-[100%] border-b">
         <div className="h-[200px] w-[200px] py-2  ml-16">
           <a href="#">
@@ -72,7 +72,7 @@ function Navbar() {
         <div
           className={
             nav
-              ? "fixed bg-gray-700 top-0 right-0 w-[50%] h-full border-r-green-500 shadow-md rounded-sm ease-in-out duration-500"
+              ? "fixed bg-gray-700 top-0 right-0 w-[50%] h-full border-r-green-500 shadow-md rounded-sm ease-in-out duration-500 z-50"
               : "fixed right-[-100%]  ease-in-out w-[50%] h-full duration-500 top-0"
           }
         >
