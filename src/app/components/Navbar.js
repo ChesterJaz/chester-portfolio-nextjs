@@ -25,10 +25,35 @@ function Navbar() {
 
         <div className="text-xl my-auto mr-16 items-center hidden md:block">
           <ul className="flex gap-10">
-            <li>
-              <a href="">Home</a>
+            <li className="relative group">
+              <a href="#" className="inline-block">
+                Home
+              </a>
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 transition-transform origin-left group-hover:scale-x-100"></span>
             </li>
-            <li>
+
+            <li className="relative group">
+              <a href="#" className="inline-block">
+                Skills
+              </a>
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 transition-transform origin-left group-hover:scale-x-100"></span>
+            </li>
+
+            <li className="relative group">
+              <a href="#" className="inline-block">
+                Projects
+              </a>
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 transition-transform origin-left group-hover:scale-x-100"></span>
+            </li>
+
+            <li className="relative group">
+              <a href="#" className="inline-block">
+              Contact
+              </a>
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 transition-transform origin-left group-hover:scale-x-100"></span>
+            </li>
+
+            {/* <li>
               <a href="">Skills</a>
             </li>
             <li>
@@ -36,7 +61,7 @@ function Navbar() {
             </li>
             <li>
               <a href="">Contact</a>
-            </li>
+            </li> */}
           </ul>
         </div>
 

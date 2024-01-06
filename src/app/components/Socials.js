@@ -7,7 +7,7 @@ function Socials() {
   return (
     <div>
          <section>
-          <div className="text-5xl flex justify-center gap-10 text-gray-600 py-5">
+          <div data-aos="fade-up" data-aos-duration="1000" className="text-5xl flex justify-center gap-10 text-gray-600 py-5">
             <a href="https://www.linkedin.com/in/chester-jazmin-68507a253/">
               <IoLogoLinkedin />
             </a>

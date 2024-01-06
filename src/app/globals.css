@@ -6,6 +6,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  scroll-behavior: smooth;
 }
 
 
@@ -23,3 +24,6 @@ a {
   font-family: "burtons";
   src: url('../../public/Burtons.otf');
 }
+
+
+
